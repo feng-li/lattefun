@@ -1,0 +1,144 @@
+%\documentclass[a4paper,11pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NSFC 2020  specific settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt, AutoFakeBold, fontset=adobe]{ctexart}
+\usepackage{xcolor}
+\definecolor{nsfcblue}{RGB}{0,112,192}
+\ctexset{
+  section={
+    format= \color{nsfcblue}\zihao{4}\raggedright\kaishu\bfseries,
+    name = {（,）},
+    number = \chinese{section}
+  },
+  subsection={
+    format= \color{nsfcblue}\zihao{4}\raggedright\kaishu\bfseries,
+    name = {,. },
+    number = \arabic{subsection}
+  },
+  subsubsection={
+    format= \color{nsfcblue}\zihao{4}\raggedright\kaishu\bfseries,
+    name = {（,） },
+    number = \arabic{subsubsection}
+  },
+}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}
+\usepackage{bm}
+
+\usepackage{natbib}
+
+%% Reduce Bibliography space
+\setlength{\bibsep}{0.0pt}
+\setlength{\itemsep}{0.0pt}
+
+%% Remove item space
+\usepackage{enumitem}
+%\setlist[itemize]{noitemsep,nolistsep}
+\setlist[enumerate]{noitemsep,nolistsep}
+
+
+\usepackage{url}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage[margin=0.85in]{geometry}
+
+\usepackage{booktabs}
+\usepackage{setspace}
+
+%% Remove page numbers (and reset to 1)
+\pagenumbering{gobble}
+
+\title{\bfseries\kaishu\zihao{3} 报告正文}
+\author{\vspace{-2cm}}
+\date{\vspace{-2cm}}
+
+\begin{document}
+\maketitle
+
+\section{立项依据与研究内容（建议8000字以下）：}
+
+\subsection{项目的立项依据}{\color{nsfcblue}\kaishu\noindent（研究意义、国内外研究现状及发
+  展动态分析，需结合科学研究发展趋势来论述科学意义；或结合国民经济和社会发展中迫切需要解决
+  的关键科技问题来论述其应用前景。附主要参考文献目录）}
+
+
+
+\subsubsection{研究意义}
+
+\subsubsection{国内外研究现状及发展动态分析}
+
+\renewcommand\refname{\subsubsection{主要参考文献}}
+\begin{spacing}{0.9}
+\bibliographystyle{agsm}
+\bibliography{full,References}
+\end{spacing}
+
+
+\subsection{拟采取的研究方案及可行性分析}{\color{nsfcblue}\kaishu\noindent（包括研究方法、
+  技术路线、实验手段、关键技术等说明）}
+
+
+\subsubsection{研究方法}
+
+\subsubsection{技术路线}
+
+\subsubsection{实验手段}
+
+\subsubsection{关键技术}
+
+\subsection{本项目的特色与创新之处}
+
+
+\subsection{年度研究计划及预期研究结果}{\color{nsfcblue}\kaishu\noindent（包括拟组织的重要
+  学术交流活动、国际合作与交流计划等）。}
+
+
+\subsubsection{拟组织的重要学术交流活动}
+
+\subsubsection{国际合作与交流计划}
+
+\section{研究基础与工作条件}
+
+\subsection{研究基础}{\color{nsfcblue}\kaishu\noindent（与本项目相关的研究工作积累和已取得
+  的研究工作成绩）}
+
+\subsection{工作条件}{\color{nsfcblue}\kaishu\noindent（包括已具备的实验条件，尚缺少的实验
+  条件和拟解决的途径，包括利用国家实验室、国家重点实验室和部门重点实验室等研究基地的计划与
+  落实情况）}
+
+\subsection{正在承担的与本项目相关的科研项目情况}{\color{nsfcblue}\kaishu\noindent（申请人
+  和项目组主要参与者正在承担的与本项目相关的科研项目情况，包括国家自然科学基金的项目和国家
+  其他科技计划项目，要注明项目的名称和编号、经费来源、起止年月、与本项目的关系及负责的内容
+  等）}
+
+\subsection{完成国家自然科学基金项目情况}{\color{nsfcblue}\kaishu\noindent（对申请人负责的
+  前一个已结题科学基金项目（项目名称及批准号）完成情况、后续研究进展及与本申请项目的关系加
+  以详细说明。另附该已结题项目研究工作总结摘要（限500字）和相关成果的详细目录）}
+
+\section{其他需要说明的问题}
+
+
+\subsection{申请人同年申请不同类型的国家自然科学基金项目情
+  况}{\color{nsfcblue}\kaishu\noindent（列明同年申请的其他项目的项目类型、项目名称信息，并
+  说明与本项目之间的区别与联系）}
+
+\subsection{具有高级专业技术职务（职称）的申请人或者主要参与者是否存在同年申请或者参与申请
+  国家自然科学基金项目的单位不一致的情况；}{\color{nsfcblue}\kaishu 如存在上述情况，列明所
+  涉及人员的姓名，申请或参与申请的其他项目的项目类型、项目名称、单位名称、上述人员在该项目
+  中是申请人还是参与者，并说明单位不一致原因。}
+
+\subsection{具有高级专业技术职务（职称）的申请人或者主要参与者是否存在与正在承担的国家自然
+  科学基金项目的单位不一致的情况；}{\color{nsfcblue}\kaishu 如存在上述情况，列明所涉及人员
+  的姓名，正在承担项目的批准号、项目类型、项目名称、单位名称、起止年月，并说明单位不一致原
+  因。}
+
+\subsection{其他。}
+
+
+\end{document}
+%%% Local Variables:
+%%% TeX-engine: xetex
+%%% End:
