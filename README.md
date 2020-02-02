@@ -1,5 +1,4 @@
-Feng Li's LaTeX templates for funding applications
-==================================================
+# `lattefun`: **LaT**eX **Te**mplates for **Fun**ding applications
 
 - 国家自然科学基金青年项目（2015非官方模版）
 
